@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Dangrek&family=Noto+Sans+Mono:wght@300&family=Pacifico&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+h1{
+  font-family: 'Dangrek', cursive;
+  color:rgb(58, 189, 232);
+}  
+
+h2{
+  font-family: 'Archivo Black', sans-serif;
+  color:rgb(247, 236, 72);
+}
+
+h3{
+  font-family: 'Pacifico', cursive;
+  color:rgb(250, 165, 248);
+}
+
+h5{
+  font-family:'Noto Sans Mono', monospace;
+}
