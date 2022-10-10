@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Dangrek&family=Noto+Sans+Mono:wght@300&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Karla&family=Lilita+One&family=Peralta&display=swap');
 
 html, body {
   height: 100%;
@@ -6,7 +6,7 @@ html, body {
 }
 
 div {
-    background: linear-gradient(to bottom right, #ccffff 0%, #99ccff 100%);
+    background-image: linear-gradient(to left bottom, #e0ffff, #d7f7ea, #d8edd2, #e3e0bb, #f0d1ae);
 }
 
 h1{
@@ -17,19 +17,19 @@ h1{
 }  
 
 h2{
-  font-family: 'Archivo Black', sans-serif;
-  color:rgb(247, 236, 72);
+  font-family: 'Lilita One', cursive;
+  color:rgb(251, 136, 147);
   text-align: center;
 }
 
 h3{
-  font-family: 'Pacifico', cursive;
-  color:rgb(250, 165, 248);
+  font-family: 'Peralta', cursive;
+  color:rgb(255, 167, 70);
   text-align: center;
 }
 
-h5{
-  font-family:'Noto Sans Mono', monospace;
+body{
+  font-family:'Karla', sans-serif;
 }
 
 .webpages img {
