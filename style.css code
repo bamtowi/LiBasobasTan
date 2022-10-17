@@ -5,8 +5,12 @@ html, body {
   width: 100%;
 }
 
-div {
+body {
+    height: 100%;
+    margin: 0;
     background-image: linear-gradient(to left bottom, #e0ffff, #d7f7ea, #d8edd2, #e3e0bb, #f0d1ae);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 h1{
@@ -26,6 +30,10 @@ h3{
   font-family: 'Peralta', cursive;
   color:rgb(255, 167, 70);
   text-align: center;
+}
+
+#webpages img{
+  float: left;
 }
 
 body{
