@@ -1,3 +1,4 @@
+/*this allows all text in our website to copy a font from Google Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Karla&family=Lilita+One&family=Peralta&display=swap');
 
 html, body {
@@ -5,14 +6,20 @@ html, body {
   width: 100%;
 }
 
+/*this property makes sure that the padding and border of the webpage images are included in the width and height*/
+* {
+  box-sizing: border-box;
+}
+
+/*this allows our website to have consistent gradient background*/
 body {
-    height: 100%;
     margin: 0;
     background-image: linear-gradient(to left bottom, #e0ffff, #d7f7ea, #d8edd2, #e3e0bb, #f0d1ae);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
+/*css code for all the font styles in our website*/
 h1{
   font-family: 'Dangrek', cursive;
   color:rgb(87,214,201);
@@ -31,22 +38,29 @@ h3{
   text-align: center;
 }
 
-#webpages img{
-  float: left;
-}
-
 body{
   font-family:'Karla', sans-serif;
 }
 
+/*this allows the webpage navigation to occupy the whole width*/
+.webpages {
+  width: 100%;
+  overflow: hidden;
+}
+
+/*this allows our webpage navigation to have a pentagonal shape*/
 .webpages img {
   clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
 
+/*this allows the webpage images to be equally-spaced and aligned horizontally*/
 .container {
-  position: relative;
+  width: 20%;
+  height: 40%;
+  float: left;
 }
 
+/*this applys a hover fade effect to the webpage images when the user places the mouse arrow on top of them*/
 .image {
   opacity: 1;
   display: block;
@@ -54,5 +68,12 @@ body{
 }
 
 .container:hover .image {
-  opacity: 0.4;
+  opacity: 0.3;
+}
+
+/*this adds a drop-shadow effect on the webpage images*/
+#webpages {
+-webkit-filter: drop-shadow(5px 5px 5px #666666);
+filter: drop-shadow(5px 5px 5px #666666);
+padding: 0;
 }
