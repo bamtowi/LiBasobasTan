@@ -1,0 +1,128 @@
+/*this allows all text in our website to copy a font from Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Karla&family=Lilita+One&family=Peralta&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/*this property makes sure that the padding and border of the webpage images are included in the width and height*/
+* {
+  box-sizing: border-box;
+}
+/*css for nav menu*/
+nav {
+  background-color: #92d4c4;
+}
+nav > ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   background-color: #92d4c4;
+   width: 110px;
+}
+nav img {
+  width: 25px;
+  height: 25px;
+}
+li, li a{
+   display: block;
+   color: black;
+   padding: 4px;
+   text-decoration: none;
+}
+a:hover {
+   color: white;
+}
+a:visited {
+  color: rgb(251, 136, 147);
+}
+#ham ul {
+  position: absolute;
+  background-color:#92d4c4;
+  left: -110px;
+  margin: 0;
+  padding: 0;
+  width: 120px;
+  transition: left 0.5s;
+}
+
+#ham:hover ul {
+  left: 0;
+}
+
+/*this allows our website to have consistent gradient background*/
+body {
+    margin: 0;
+    background-image: linear-gradient(to left bottom, #e0ffff, #d7f7ea, #d8edd2, #e3e0bb, #f0d1ae);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*css code for all the font styles in our website*/
+h1{
+  font-family: 'Dangrek', cursive;
+  color:rgb(87,214,201);
+  text-shadow: 0px 5px 0px #000000;
+  margin-left: 15px;
+}  
+
+h2{
+  font-family: 'Lilita One', cursive;
+  color:rgb(251, 136, 147);
+  text-align: center;
+}
+
+h3{
+  font-family: 'Peralta', cursive;
+  color:rgb(255, 167, 70);
+  text-align: center;
+}
+
+h4, p, li{
+  margin-left: 15px;
+}
+
+body{
+  font-family:'Karla', sans-serif;
+}
+
+.audiocontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*link navigation*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+  left: 30%;
+}
+
+.dropdown-item {
+  display: none;
+  position: absolute;
+  background-color: #80c3f2;
+  min-width: 200px;
+  z-index: 1;
+}
+
+.dropdown:hover {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: 0.5s ease;
+  box-shadow: 0 0 0 8px #9fcffc;
+}
+  
+.dropdown:hover .dropdown-item {
+  display: block;
+  padding: 10px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
